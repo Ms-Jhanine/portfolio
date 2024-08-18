@@ -270,6 +270,11 @@ strong {
   padding: 12px 24px;
 }
 
+.button-container {
+  display: flex;
+  gap: 10px; /* Adds some space between the buttons */
+}
+
 .custom-btn:hover {
   background: var(--primary-color);
   box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
@@ -506,7 +511,7 @@ strong {
 
 .hero-image {
   position: absolute;
-  z-index: 22;
+  z-index: 3;
   top: -180px;
   width: 100%;
   min-width: 550px;
